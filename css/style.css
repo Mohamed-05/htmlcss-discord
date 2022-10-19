@@ -16,7 +16,7 @@
 }
 
 .container{
-    width: 62.5%;
+    width: 70.5%;
     margin: 0 auto;
     height: 100%;
 }
@@ -24,30 +24,31 @@
 .crazy-bordered{
     border: 2px dashed black;
 }
-
-
+.login{
+    border-radius: 2rem;
+}
 .col{
     height: 480px;
 }
 
 .big-col{
-    width: 65%;
-    background-color: #1e8ffe;
-
+    width: 75%;
+    /* background-color: #1e8ffe; */
 }
 
 .small-col{
     width: 35%;
-    background-color: #febfca;
+    /* background-color: #febfca; */
+    padding: 2rem;
 }
 
 .bg-grey{
-    background-color: #d2d2d2;
+    background-color: #f6f6f6;
 }
 
 
 header{
-    background-color: #add8e6;
+    background-color: #255ee9;
     align-items: center;
     /* height: 80px; */
     flex-direction: column;
@@ -67,7 +68,6 @@ main section.king {
     /* background-color: aqua; */
 }
 
-
 nav.header-top{
     height: 45px;
     margin: 1rem;
@@ -78,27 +78,49 @@ nav div.logo,
 nav div.login{
     flex-basis: 20%;
     /* width: 20%; */
-    background-color: orange;
-    padding:.75rem;
-
+    /* background-color: orange; */
+    padding:.5rem;
 }
 
+button.black-button{
+    color: white;
+    background-color: black;
+}
+
+button.white-button{
+    color: black;
+    background-color: white
+}
+
+button.button{
+    padding: .5rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+}
 nav ul.main-menu{
+    color: white;
     flex-basis: 80%;
-    background-color: orange;
-    padding:.75rem;
+    /* background-color: orange; */
+    padding:.5rem;
     text-align: center;
 }
 
+image.content-image{
+    padding: 1rem;
+}
+
 nav ul.main-menu li{
+    margin: 0 1rem;
     display: inline;
 }
 
 
 div.big-content{
-    background-color: #228a22;
+    padding: 2rem 2rem;
+    /* background-color: #228a22; */
     height: 800px;
     width: 100%;
+    text-align: center;
 }
 
 footer{
@@ -149,15 +171,31 @@ footer .footer-button{
 
 
 div#jumbotron{
-    background-color: #00008a;
-    height: 450px;
+    background-image: url("../img/jumbo.png");
+    height: 600px;
     width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
+div#jumbotron .jumbo-content p{
+    margin: 1.5rem 0;
+    font-size: 1rem;
+}
 div#jumbotron .jumbo-content{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
     width: 45%;
     height: 350px;
-    background-color: #ed81ed;
+    /* background-color: #ed81ed; */
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+p{
+    font-size: 1.5rem;
 }
 
 
